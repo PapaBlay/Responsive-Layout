@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Poppins:ital@0;1&display=swap"
+        rel="stylesheet">
+    <title>Responsive Layout</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="wrapper">
+            <div class="container">
+                <div class="desktop-nav">
+                    <h1 class="name">Eben Blay</h1>
+                    <nav>
+                        <ul class="main-nav">
+                            <li><a href="index.html" class="home">Home</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="banner">
+                    <img src="images/responsive-layout-profile.png" alt="image of the student" class="student">
+                    <p class="intro">Hi! I'm a front-end developer who loves responsive design and css. I recently
+                        finished
+                        a degree in
+                        front-end web development at Treehouse and i'm excited to put all my skills to use!</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <main id="portfolio" class="container">
+            <h2>Portfolio</h2>
+            <div class="cards">
+                <figure class="card">
+                    <img src="images/portfolio-1.png" class="portfolio-img">
+                    <figcaption class="caption">Marketing Page</figcaption>
+                    <p class="description">This project shows the front page of a marketing website meant for a specific
+                        business I'm interested in.
+                    </p>
+                </figure>
+                <figure class="card">
+                    <img src="images/portfolio-2.png" class="portfolio-img">
+                    <figcaption class="caption">Search Page</figcaption>
+                    <p class="description">This project searches through a specific database to find information that
+                        the
+                        user
+                        is trying to look up.
+                    </p>
+                </figure>
+                <figure class="card">
+                    <img src="images/portfolio-3.png" class="portfolio-img">
+                    <figcaption class="caption">Travel App</figcaption>
+                    <p class="description">This project compares travel times based on different transportation methods
+                        and
+                        tells you the best one.
+                    </p>
+                </figure>
+                <figure class="card">
+                    <img src="images/portfolio-4.png" class="portfolio-img">
+                    <figcaption class="caption">Map of Favorite Spots</figcaption>
+                    <p class="description">This project uses mapping apis to plot points for my favorite spots in the
+                        city
+                        for a
+                        do-it-yourself
+                        walking tour.
+                    </p>
+                </figure>
+                <figure class="card">
+                    <img src="images/portfolio-5.png" class="portfolio-img">
+                    <figcaption class="caption">Photo Gallery</figcaption>
+                    <p class="description">This project shows pictures from a recent trip to the viewer and allows them
+                        to
+                        easily navigate through
+                        photos.
+                    </p>
+                </figure>
+                <figure class="card">
+                    <img src="images/portfolio-6.png" class="portfolio-img">
+                    <figcaption class="caption">Calculator</figcaption>
+                    <p class="description">Someone canenter in the numbers they want, and press the big blue button and
+                        get
+                        the
+                        result.
+                    </p>
+                </figure>
+            </div>
+        </main>
+    </div>
+    <footer id="contact" class="footer">
+        <div class="wrapper">
+            <h2>Contact</h2>
+            <p>If you're interested in chatting or wnat more information about what I've been working on, I'd love
+                to hear
+                from you!</p>
+            <p>Phone <span>+1 (111) 555-1234</span></p>
+            <p>Email <span>email@yoursite.com</span></p>
+            <hr>
+            <div class="container footer-container">
+                <p class="footer-student">Eben Blay</p>
+                <p><a href="index.html" class="mobile">Back to top</a></p>
+                <nav>
+                    <ul class="footer-nav">
+                        <li><a href="index.html" class="large">Home</a></li>
+                        <li><a href="#portfolio" class="large">Portfolio</a></li>
+                        <li><a href="#contact" class="large">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
